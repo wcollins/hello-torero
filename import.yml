@@ -22,7 +22,7 @@ services:
       repository: hello-torero
 
     - name: hello-opentofu
-      type: opentofu-hello-world
+      type: opentofu-plan
       description: OpenTOFU hello world
       working-directory: opentofu-hello-world
       repository: hello-torero
