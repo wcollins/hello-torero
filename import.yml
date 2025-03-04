@@ -4,6 +4,8 @@ repositories:
       description: Get started with torero
       url: https://github.com/wcollins/hello-torero.git
       reference: develop
+      tags:
+        - my-repo
 
 services:
     - name: hello-ansible
@@ -13,6 +15,8 @@ services:
       playbooks:
         - hello-world.yml
       repository: hello-torero
+      tags:
+        - my-service
 
     - name: hello-python
       type: python-script
